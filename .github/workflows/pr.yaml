@@ -1,6 +1,6 @@
 name: learn-github-actions
 on:
-  pull:
+  push:
     branches: [main]
 jobs:
   check-bats-version:
