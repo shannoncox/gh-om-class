@@ -11,4 +11,4 @@ jobs:
         with:
           node-version: '16.x'
       - run: npm install bats
-      - run: bats -v
+      - run: npm run bats -v
