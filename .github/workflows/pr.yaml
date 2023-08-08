@@ -1,7 +1,8 @@
 name: lab-1-gh-actions
 on:
   pull_request:
-    branches: [main]
+    branches: 
+      - main
 jobs:
   check-bats-version:
     runs-on: ubuntu-latest
